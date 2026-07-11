@@ -88,24 +88,31 @@ def initialize() -> bool:
 
 
 def _load_knowledge_docs() -> list[dict]:
-    """加载知识文档，将大文档按 ## 标题拆分为段落."""
+    """加载知识文档：扫描 data 目录所有 .md 文件，按 ## 标题拆分为段落."""
     docs = []
-    flow_path = KNOWLEDGE_DIR / "界园肉鸽大致流程.md"
-    if flow_path.exists():
-        with open(flow_path, encoding="utf-8") as f:
+    md_files = sorted(KNOWLEDGE_DIR.glob("*.md"))
+    if not md_files:
+        print("RAG: 未找到知识文档（*.md）")
+        return docs
+
+    for md_path in md_files:
+        source_name = md_path.name
+        with open(md_path, encoding="utf-8") as f:
             content = f.read()
-            sections = content.split("\n## ")
-            for sec in sections:
-                sec = sec.strip()
-                if not sec:
-                    continue
-                title = sec.split("\n")[0].replace("# ", "").strip()[:80]
-                docs.append({
-                    "id": f"guide_jy_{abs(hash(sec)):08x}",
-                    "title": title,
-                    "content": sec[:3000],
-                    "source": "界园肉鸽大致流程.md",
-                })
+        sections = content.split("\n## ")
+        for sec in sections:
+            sec = sec.strip()
+            if not sec:
+                continue
+            title = sec.split("\n")[0].replace("# ", "").strip()[:80]
+            docs.append({
+                "id": f"rag_{abs(hash(sec)):08x}",
+                "title": title,
+                "content": sec[:3000],
+                "source": source_name,
+            })
+
+    print(f"RAG: 从 {len(md_files)} 个文档中加载了 {len(docs)} 个段落")
     return docs
 
 

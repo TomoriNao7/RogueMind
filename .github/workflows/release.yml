@@ -46,6 +46,32 @@ jobs:
         pyinstaller --onedir --name backend --clean --noconsole `
           --distpath backend/dist `
           --workpath backend/build `
+          --collect-all fastapi `
+          --collect-all uvicorn `
+          --collect-all pydantic `
+          --collect-all openai `
+          --collect-all sentence_transformers `
+          --collect-all faiss `
+          --collect-all numpy `
+          --collect-all rank_bm25 `
+          --hidden-import app `
+          --hidden-import app.main `
+          --hidden-import app.api `
+          --hidden-import app.api.knowledge `
+          --hidden-import app.api.recommend `
+          --hidden-import app.api.analyze `
+          --hidden-import app.api.settings `
+          --hidden-import app.api.session_api `
+          --hidden-import app.core `
+          --hidden-import app.core.rag `
+          --hidden-import app.core.agent `
+          --hidden-import app.core.rule_engine `
+          --hidden-import app.core.llm_config `
+          --hidden-import app.core.session `
+          --hidden-import app.core.data_loader `
+          --hidden-import app.core.tools `
+          --hidden-import app.models `
+          --hidden-import app.models.schemas `
           --add-data "backend/app;app" `
           --add-data "backend/data;data" `
           --add-data "backend/models;models" `
