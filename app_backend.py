@@ -23,9 +23,10 @@ def main():
         sys.stderr = open(os.devnull, 'w')
 
     if getattr(sys, 'frozen', False):
-        base_dir = os.path.dirname(sys.executable)
-        if base_dir not in sys.path:
-            sys.path.insert(0, base_dir)
+        # _MEIPASS 是 PyInstaller 数据解压目录，--add-data 的文件都在这里
+        # 必须加入 sys.path，否则 app.* 等 Python 包无法被 import
+        if sys._MEIPASS not in sys.path:
+            sys.path.insert(0, sys._MEIPASS)
 
     uvicorn.run(
         "app.main:app",
