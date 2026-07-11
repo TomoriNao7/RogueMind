@@ -15,6 +15,13 @@ def main():
     """启动 Uvicorn 服务器."""
     import uvicorn
 
+    # PyInstaller --noconsole 模式下 sys.stdout/stderr 为 None，
+    # uvicorn 会调用 sys.stdout.isatty() 导致 AttributeError
+    if sys.stdout is None:
+        sys.stdout = open(os.devnull, 'w')
+    if sys.stderr is None:
+        sys.stderr = open(os.devnull, 'w')
+
     if getattr(sys, 'frozen', False):
         base_dir = os.path.dirname(sys.executable)
         if base_dir not in sys.path:
