@@ -1,0 +1,37 @@
+{
+  "name": "RogueMind",
+  "version": "0.1.0",
+  "description": "明日方舟集成战略助手",
+  "main": "main.js",
+  "author": "RogueMind",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.rogue-mind.app",
+    "productName": "RogueMind",
+    "directories": {
+      "output": "../release"
+    },
+    "files": [
+      "main.js",
+      "frontend-dist/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend/dist/backend",
+        "to": "backend"
+      }
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "../assets/icon.ico"
+    }
+  }
+}

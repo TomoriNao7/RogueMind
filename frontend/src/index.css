@@ -1,0 +1,112 @@
+/* RogueMind — 鹰角网络黑白风格 */
+
+:root {
+  --bg-primary: #0D0D0D;
+  --bg-secondary: #1A1A1A;
+  --bg-tertiary: #262626;
+  --border-primary: #404040;
+  --border-accent: #8C8C8C;
+  --text-primary: #E6E6E6;
+  --text-secondary: #999999;
+  --text-muted: #666666;
+  --accent: #FFFFFF;
+  --accent-dim: #BFBFBF;
+
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --font-sans: 'Noto Sans SC', system-ui, sans-serif;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-primary);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.5px; }
+h2 { font-size: 20px; font-weight: 500; }
+h3 { font-size: 16px; font-weight: 500; }
+
+/* Panel card */
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
+  padding: var(--gap-lg);
+}
+
+/* Button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--bg-primary);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 150ms ease-out;
+}
+
+.btn:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent-dim);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-ghost {
+  color: var(--text-primary);
+  background: transparent;
+  border-color: var(--border-primary);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--border-accent);
+}
+
+/* Status indicator */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.ok { background: var(--text-secondary); }
+.status-dot.err { background: var(--text-muted); }
+.status-dot.loading { background: var(--accent-dim); animation: pulse 1s infinite; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}

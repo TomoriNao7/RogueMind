@@ -1,0 +1,220 @@
+[
+  {
+    "level": 0,
+    "name": "请君入园",
+    "enemy_scaling": 0,
+    "age_level": "朦胧",
+    "coin_quality": "低",
+    "effects": [
+      "初始生命值上限更高",
+      "岁兽残识中的敌人极为虚弱",
+      "所有敌人最大生命值-20%，攻击力-20%（仅限该难度）"
+    ]
+  },
+  {
+    "level": 1,
+    "name": "请君入园·1",
+    "enemy_scaling": 0,
+    "age_level": "朦胧",
+    "coin_quality": "低",
+    "effects": [
+      "初始目标生命上限-2",
+      "所有敌人最大生命值-10%，攻击力-10%（仅限该难度）"
+    ]
+  },
+  {
+    "level": 2,
+    "name": "请君入园·2",
+    "enemy_scaling": 0,
+    "age_level": "朦胧",
+    "coin_quality": "低",
+    "effects": [
+      "岁时的影响更加强大",
+      "进入第2、4、6、7层级时触发岁时"
+    ]
+  },
+  {
+    "level": 3,
+    "name": "请君入园·3",
+    "enemy_scaling": 0,
+    "age_level": "朦胧",
+    "coin_quality": "标准",
+    "effects": [
+      "钱盒加入3枚大炎通宝",
+      "钱盒容量+3（7→10）",
+      "多元奇物提升至近代的"
+    ]
+  },
+  {
+    "level": 4,
+    "name": "请君入园·4",
+    "enemy_scaling": 1,
+    "age_level": "朦胧",
+    "coin_quality": "标准",
+    "effects": [
+      "便符与受符生命值+50%",
+      "其余敌人生命值+40%"
+    ]
+  },
+  {
+    "level": 5,
+    "name": "请君入园·5",
+    "enemy_scaling": 2,
+    "age_level": "朦胧",
+    "coin_quality": "标准",
+    "effects": [
+      "所有敌人受到物理和法术伤害降低10%"
+    ]
+  },
+  {
+    "level": 6,
+    "name": "请君入园·6",
+    "enemy_scaling": 3,
+    "age_level": "真切",
+    "coin_quality": "中",
+    "effects": [
+      "岁时效果从朦胧提升至真切",
+      "多元奇物提升至古代的",
+      "游人背囊《启功记》生效"
+    ]
+  },
+  {
+    "level": 7,
+    "name": "请君入园·7",
+    "enemy_scaling": 4,
+    "age_level": "真切",
+    "coin_quality": "中",
+    "effects": [
+      "大炎通宝替换为四厉煞",
+      "岁兽残识中的敌人不再虚弱"
+    ]
+  },
+  {
+    "level": 8,
+    "name": "请君入园·8",
+    "enemy_scaling": 5,
+    "age_level": "真切",
+    "coin_quality": "中",
+    "effects": [
+      "招募五星干员希望消耗+1",
+      "精英和领袖敌人防御力、生命值+20%"
+    ]
+  },
+  {
+    "level": 9,
+    "name": "请君入园·9",
+    "enemy_scaling": 6,
+    "age_level": "真切",
+    "coin_quality": "高",
+    "effects": [
+      "岁兽残识中的作战最低数量增加",
+      "可同时部署人数-1",
+      "多元奇物提升至史前的",
+      "游人背囊《设园通鉴》生效"
+    ]
+  },
+  {
+    "level": 10,
+    "name": "请君入园·10",
+    "enemy_scaling": 7,
+    "age_level": "真切",
+    "coin_quality": "高",
+    "effects": [
+      "受符的干员攻击力-50%",
+      "初始目标生命上限-2"
+    ]
+  },
+  {
+    "level": 11,
+    "name": "请君入园·11",
+    "enemy_scaling": 10,
+    "age_level": "真切",
+    "coin_quality": "高",
+    "effects": [
+      "可留存的招募券数量-2",
+      "所有敌人的攻击力+20%"
+    ]
+  },
+  {
+    "level": 12,
+    "name": "请君入园·12",
+    "enemy_scaling": 11,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "岁时的效果从真切提升至入髓",
+      "刷新商店和重新投钱基础消耗票券+1"
+    ]
+  },
+  {
+    "level": 13,
+    "name": "请君入园·13",
+    "enemy_scaling": 12,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "雕伥的最大生命值+50%",
+      "易切换晦明状态后获得的屏障提升至150%"
+    ]
+  },
+  {
+    "level": 14,
+    "name": "请君入园·14",
+    "enemy_scaling": 13,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "领袖敌人受到伤害降低20%",
+      "岁和岁躯的攻击力提升至150%"
+    ]
+  },
+  {
+    "level": 15,
+    "name": "请君入园·15",
+    "enemy_scaling": 15,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "招募六星干员希望消耗+1",
+      "受符的效果半径+0.8",
+      "瑕的攻击力和生命值+50%"
+    ]
+  },
+  {
+    "level": 16,
+    "name": "请君入园·16",
+    "enemy_scaling": 18,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "所有敌人攻击速度+20",
+      "后兽的生命值提升至200%，矩兽的攻击力提升至200%",
+      "后兽召唤的敌人有所不同"
+    ]
+  },
+  {
+    "level": 17,
+    "name": "请君入园·17",
+    "enemy_scaling": 21,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "领袖敌人攻击力+20%",
+      "指点迷津中招募及进阶干员减少希望变为1",
+      "醉生/谋炎在待部署区添加的宿傲/宿怒数量+1",
+      "敛傲/愠怒的攻击力提升至200%"
+    ]
+  },
+  {
+    "level": 18,
+    "name": "请君入园·18",
+    "enemy_scaling": 25,
+    "age_level": "入髓",
+    "coin_quality": "高",
+    "effects": [
+      "重新投钱会消耗更多的票券",
+      "部分特殊作战及第四层起普通/紧急/险路恶敌出现额外敌人",
+      "朔壳闪避所有非自身阻挡单位的物理与法术伤害"
+    ]
+  }
+]

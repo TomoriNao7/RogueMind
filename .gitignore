@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+out/
+release/
+
+# 项目文档（仅开发者）
+docs/
+devlog/
+CLAUDE.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Python
+*.egg-info/
+
+# ChromaDB
+chroma_data/
+
+# Models
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# PyInstaller
+backend/dist/
+backend/build/
+backend/backend_dist/
+backend/*.spec
+
+# App binaries
+RogueMind.exe
+*.exe
+
+# Sessions
+backend/data/sessions/
+backend/data/llm_config.json
+backend/data/faiss_index.bin
+
+# Logs
+*.log
+
+# Skills（非项目源码）
+.agents/
+
+# Electron
+release/
+
+# 用户数据（隐私）
+backend/data/sessions/
+backend/data/llm_config.json
+backend/data/faiss_index.bin
+backend/data/界园肉鸽抓位榜单.md
+backend/data/界园钱币评价.md
+backend/data/MVP版本干员名.md

@@ -1,0 +1,3538 @@
+[
+  {
+    "id": "char_4182_oblvns",
+    "name": "丰川祥子",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "领主",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "新月的苏醒",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "满月的舞会",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "残月的余响",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "颂乐音符",
+        "description": "丰川祥子可以且攻击会演奏追踪敌人的音符，音符飘出攻击范围一段时间后消失",
+        "unlock_at": 0
+      },
+      {
+        "name": "毋畏遗忘",
+        "description": "对敌人造成伤害时使+1",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "无言的约定"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4224_turdus",
+    "name": "乌啾",
+    "rarity": 5,
+    "class": "医疗",
+    "branch": "链愈师",
+    "tags": [
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "火钳秘咒",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "“捉迷藏！”",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "久病良医",
+        "description": "受到自身的跳跃治疗时，治疗量提升至110%，并额外进行一次不衰减的治疗跳跃",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“睡前故事”"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_4145_ulpia",
+    "name": "乌尔比安",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "重剑手",
+    "tags": [
+      "输出",
+      "生存"
+    ],
+    "skills": [
+      {
+        "name": "必须促成的接触",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "必须维系的界限",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "必须开辟的通路",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "本性的坚守",
+        "description": "每次受到伤害时，治疗自身80点生命值；生命值低于50%时，治疗效果提升至120点生命值",
+        "unlock_at": 1
+      },
+      {
+        "name": "血脉的哺养",
+        "description": "每次击倒一名敌人时，自身的生命上限，攻击力，最多叠加9次，其他【深海猎人】干员，攻击力|获得50%的提高效果}}",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "乌尔比安的衣橱"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4082_qiubai",
+    "name": "仇白",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "领主",
+    "tags": [
+      "输出",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "留羽",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "承影",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "问雪",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "入隙",
+        "description": "攻击处于、的敌人时，额外造成相当于攻击力25%的法术伤害",
+        "unlock_at": 1
+      },
+      {
+        "name": "落英",
+        "description": "攻击时有20%的几率使目标1.5秒",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "雪浸过的斗笠"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4087_ines",
+    "name": "伊内丝",
+    "rarity": 6,
+    "class": "先锋",
+    "branch": "情报官",
+    "tags": [
+      "费用回复",
+      "快速复活"
+    ],
+    "skills": [
+      {
+        "name": "淬影突袭",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "暗夜无明",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "独影归途",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "影织",
+        "description": "对每个敌人首次造成伤害后，使目标3秒并其50点攻击力（持续至目标被击倒或伊内丝离场）",
+        "unlock_at": 1
+      },
+      {
+        "name": "影哨",
+        "description": "攻击范围内敌人的效果失效且移动速度-30%，撤退后留下一个影哨使该效果持续生效（最多1个）",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "角部“护理”套组"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_355_ethan",
+    "name": "伊桑",
+    "rarity": 4,
+    "class": "特种",
+    "branch": "伏击客",
+    "tags": [
+      "输出",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "花式回旋",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "十字悬挂",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "缠绕",
+        "description": "攻击时有25%的几率使目标2秒",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "超级喷漆套装"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_491_humus",
+    "name": "休谟斯",
+    "rarity": 4,
+    "class": "近卫",
+    "branch": "收割者",
+    "tags": [
+      "输出",
+      "生存"
+    ],
+    "skills": [
+      {
+        "name": "固废切割",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "高效处理",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "再回收",
+        "description": "超出自身生命上限的生命值可转化为；最多不超过自身最大生命值的60%",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "恶地奇异工具套组"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_1013_chen2",
+    "name": "假日威龙陈",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "散射手",
+    "tags": [
+      "输出",
+      "群攻"
+    ],
+    "skills": [
+      {
+        "name": "高压冲击",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "“堇青之夜”",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "“假日风暴”",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "节约风气",
+        "description": "在场时自身弹药类技能攻击时概率不消耗对应弹药（同类效果取最高）",
+        "unlock_at": 1
+      },
+      {
+        "name": "假日余韵",
+        "description": "攻击速度，当场地中存在水地形时改为攻击速度",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "沙滩战斗套装"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "假期的最后一天"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4208_wintim",
+    "name": "冬时",
+    "rarity": 4,
+    "class": "先锋",
+    "branch": "情报官",
+    "tags": [
+      "费用回复",
+      "快速复活"
+    ],
+    "skills": [
+      {
+        "name": "数据分析",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "循理归因",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "疾笔撰录",
+        "description": "攻击速度+5，自身受到伤害后失去该效果",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "缺角的权限"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_1045_svash2",
+    "name": "凛御银灰",
+    "rarity": 6,
+    "class": "先锋",
+    "branch": "策士",
+    "tags": [
+      "费用回复",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "周旋的谋略",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "御敌的锋锐",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "变革已至",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "开放性开局",
+        "description": "在场时向待部署区中加入“风雪之眼”，且使待部署区按照部署费用排列。位于“风雪之眼”左侧的干员与自身+2，下次再部署时间-10%",
+        "unlock_at": 0
+      },
+      {
+        "name": "雪境先驱",
+        "description": "在场时，【谢拉格】干员免疫，防御力且每秒回复1.5%最大生命值；在场15秒后防御力和生命回复效果翻倍",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_003_kalts",
+    "name": "凯尔希",
+    "rarity": 6,
+    "class": "医疗",
+    "branch": "医师",
+    "tags": [
+      "召唤",
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "指令：结构加固",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "指令：战术协同",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "指令：熔毁",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "Mon3tr",
+        "description": "可以使用并治疗Mon3tr，拥有35秒再部署时间，优先治疗自身和Mon3tr；Mon3tr不在凯尔希攻击范围内时防御力",
+        "unlock_at": 0
+      },
+      {
+        "name": "不毁重构",
+        "description": "Mon3tr在被击倒后（不包括撤退）使周围8格内所有敌人3秒并对其造成1200点真实伤害",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "Mon2tr"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "医者"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "凯尔希特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1052_kalts2",
+    "name": "凯尔希·思衡托",
+    "rarity": 6,
+    "class": "医疗",
+    "branch": "守望者",
+    "tags": [
+      "高空",
+      "治疗",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "应急肃正防线",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "保护性拒止",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "破梏重生",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "遗尘守望",
+        "description": "生命上限和防御力+5%，阻挡数+1，阻挡范围扩大()，部署后生命修复单元升空，自身",
+        "unlock_at": 0
+      },
+      {
+        "name": "医者丰碑",
+        "description": "其他友方干员进入自身攻击范围时立刻获得1层并额外获得一次每秒回复50点生命值的增益治疗，持续30秒（不可叠加），增益治疗对【罗德岛】干员的效果翻倍",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_196_sunbr",
+    "name": "古米",
+    "rarity": 4,
+    "class": "重装",
+    "branch": "守护者",
+    "tags": [
+      "防护",
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "备用军粮",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "食粮烹制",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "平底锅专精",
+        "description": "攻击时，10%几率当次攻击的攻击力提升至150%，并敌人0.5秒",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "蜜糖馅饼礼包"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4228_closur",
+    "name": "可露希尔",
+    "rarity": 6,
+    "class": "先锋",
+    "branch": "战术家",
+    "tags": [
+      "费用回复",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "递归策略",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "模型扩展",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "Q.E.D.",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "精准投放",
+        "description": "可以在战术点召唤指挥中心协助作战，其被击败后会在15秒后自动刷新；战术点效果范围随携带技能变化，效果范围内的友方单位视为自身的援军",
+        "unlock_at": 0
+      },
+      {
+        "name": "极限调度",
+        "description": "携带可露希尔时，降低3，【罗德岛】干员攻击力+4%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "给自己的小奖杯"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_210_stward",
+    "name": "史都华德",
+    "rarity": 3,
+    "class": "术师",
+    "branch": "中坚术师",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "强力击·α型",
+        "index": 1,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "铠甲突破",
+        "description": "攻击力，优先攻击防御力最高的敌人",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_1043_leizi2",
+    "name": "司霆惊蛰",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "解放者",
+    "tags": [
+      "输出",
+      "爆发"
+    ],
+    "skills": [
+      {
+        "name": "浩气长存",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "正霆摄威",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "天地通明",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "明断",
+        "description": "攻击范围内地块每秒有10%的概率落雷造成相当于攻击力50%的法术伤害。未开启技能时",
+        "unlock_at": 0
+      },
+      {
+        "name": "追责",
+        "description": "开启技能时，使攻击范围内所有地面地块落雷，对所有敌人造成相当于攻击力100%的法术伤害和2秒",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“一念”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1046_sbell2",
+    "name": "圣聆初雪",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "阵法术师",
+    "tags": [
+      "群攻",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "铃音吹雪",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "霜涛覆岭",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "群山俯首",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "无垠的雪景",
+        "description": "攻击范围内的地面每隔10秒产生一层积雪，地面敌人经过时立即受到相当于攻击力20%的法术伤害，每层积雪使经过的所有敌人移动速度，最多叠加5层（首个敌人离开该地块时积雪消失）",
+        "unlock_at": 0
+      },
+      {
+        "name": "圣山的祝福",
+        "description": "受到伤害时使敌人1.5秒，若受到致命伤害，仅一次立刻回复所有生命值并使自身4秒，使攻击范围内所有敌方单位8秒",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "千分之一的心"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4052_surfer",
+    "name": "寻澜",
+    "rarity": 5,
+    "class": "先锋",
+    "branch": "情报官",
+    "tags": [
+      "费用回复",
+      "快速复活"
+    ],
+    "skills": [
+      {
+        "name": "探寻",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "洞悉",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "独自远走",
+        "description": "部署时，若周围4格没有其他干员，获得1点部署费用",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "佳肴"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_4121_zuole",
+    "name": "左乐",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "武者",
+    "tags": [
+      "输出",
+      "生存"
+    ],
+    "skills": [
+      {
+        "name": "破虏",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "行险",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "佑序有炎",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "秉烛照影",
+        "description": "在场时，自身获得最高+30攻击速度和技力自然回复速度+0.5/秒的（损失50%生命值时达到最大加成）",
+        "unlock_at": 0
+      },
+      {
+        "name": "守正自明",
+        "description": "攻击时有20%的概率获得1点技力，生命低于50%时概率变为70%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“岂苦夜长”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "秉烛人的记录"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_254_vodfox",
+    "name": "巫恋",
+    "rarity": 5,
+    "class": "辅助",
+    "branch": "削弱者",
+    "tags": [
+      "削弱"
+    ],
+    "skills": [
+      {
+        "name": "病入膏肓",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "诅咒娃娃",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "溃败暗示",
+        "description": "攻击范围内的敌人生命少于40%时，令其获得10%的效果",
+        "unlock_at": 0
+      },
+      {
+        "name": "伴生恶兆",
+        "description": "在战场停留15秒后",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "布艺苹果"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_1027_greyy2",
+    "name": "承曦格雷伊",
+    "rarity": 5,
+    "class": "狙击",
+    "branch": "投掷手",
+    "tags": [
+      "输出",
+      "减速"
+    ],
+    "skills": [
+      {
+        "name": "迅捷打击·γ型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "晨曦信标",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "窃光链缚",
+        "description": "攻击时有25%的几率对攻击目标造成2秒的",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "新型电控设备技术原型"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_2012_typhon",
+    "name": "提丰",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "攻城手",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "迅捷打击·γ型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "冰原秩序",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "“永恒狩猎”",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "锐如兽牙",
+        "description": "连续攻击时逐渐无视敌人的防御力，最高无视其防御力的40%（每次攻击提升5%的无视防御比例），3秒内未攻击则失去加成",
+        "unlock_at": 1
+      },
+      {
+        "name": "重如沼泥",
+        "description": "技能期间对每个敌人首次造成伤害时，攻击力提升至160%并使目标3秒",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "自然的包容"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "冰原的影子"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "提丰特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_284_spot",
+    "name": "斑点",
+    "rarity": 3,
+    "class": "重装",
+    "branch": "守护者",
+    "tags": [
+      "防护",
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "次级治疗模式",
+        "index": 1,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "烟雾加装",
+        "description": "治疗友方单位后为其提供持续3秒的10%物理闪避",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_1044_hsgma2",
+    "name": "斩业星熊",
+    "rarity": 6,
+    "class": "重装",
+    "branch": "驭法铁卫",
+    "tags": [
+      "输出",
+      "生存"
+    ],
+    "skills": [
+      {
+        "name": "恶业苦果",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "无始无明",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "地狱变相",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "业火",
+        "description": "生命降至0时进入“我执”：期间不成为其他角色的治疗目标，受到的伤害会继续积累，积累至生命上限的100%时被击倒，5秒内未受到伤害时，每秒回复5%生命，生命大于0时退出“我执”",
+        "unlock_at": 1
+      },
+      {
+        "name": "鬼之架势",
+        "description": "在场时，自身获得最高+50法术抗性和35%攻击力的（损失70%生命值时达到最大加成）",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "无迹"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1041_angel2",
+    "name": "新约能天使",
+    "rarity": 6,
+    "class": "特种",
+    "branch": "怪杰",
+    "tags": [
+      "输出",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "天空大扫除",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "开火成瘾症",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "使命必达！",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "火力电台",
+        "description": "在场时，每当有友方干员的弹药被消耗就会回复自身6%生命值，并有20%概率立即对该干员攻击范围的敌人召唤一次轰炸，造成相当于自身攻击力105%的物理溅射伤害",
+        "unlock_at": 0
+      },
+      {
+        "name": "铳弹协约",
+        "description": "在场时，携带弹药类技能的干员攻击力，对【拉特兰】干员的效果翻倍",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "新朋友圣城生活套组"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_136_hsguma",
+    "name": "星熊",
+    "rarity": 6,
+    "class": "重装",
+    "branch": "铁卫",
+    "tags": [
+      "防护",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "战意",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "荆棘",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "力之锯",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "战术装甲",
+        "description": "获得12%的伤害抵挡",
+        "unlock_at": 1
+      },
+      {
+        "name": "特种作战策略",
+        "description": "在场时所有友方【重装】职业干员的防御力",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "友人们的赠礼"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "护身符"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_497_ctable",
+    "name": "晓歌",
+    "rarity": 5,
+    "class": "先锋",
+    "branch": "情报官",
+    "tags": [
+      "费用回复",
+      "快速复活"
+    ],
+    "skills": [
+      {
+        "name": "观火",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "浮光",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "万全",
+        "description": "未阻挡敌人时攻击速度+6，阻挡敌人时攻击力+6%",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“不发声者”"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_283_midn",
+    "name": "月见夜",
+    "rarity": 3,
+    "class": "近卫",
+    "branch": "领主",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "武器附魔·α型",
+        "index": 1,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "要害瞄准·初级",
+        "description": "攻击时，10%几率当次攻击的攻击力提升至150%",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_401_elysm",
+    "name": "极境",
+    "rarity": 5,
+    "class": "先锋",
+    "branch": "执旗手",
+    "tags": [
+      "费用回复",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "支援号令·γ型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "聆听",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "狙击支援",
+        "description": "在场时，所有【狙击】干员的部署费用，且技能开启时所有【狙击】干员的攻击速度",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "应急通讯指南"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_151_myrtle",
+    "name": "桃金娘",
+    "rarity": 4,
+    "class": "先锋",
+    "branch": "执旗手",
+    "tags": [
+      "费用回复",
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "支援号令·β型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "治愈之翼",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "浮光跃金",
+        "description": "在场时，所有【先锋】干员每秒回复25点生命",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“私人收藏”"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_450_necras",
+    "name": "死芒",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "塑灵术师",
+    "tags": [
+      "召唤",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "噩愿",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "折朽",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "冠死以冕",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "复燃",
+        "description": "攻击范围内敌人被击倒时生成一个悲叹的仆役，最多召唤2个，若无法再次召唤则使一个悲叹的仆役升级（提升生命、攻击和防御）(升级后：生命值+50%，攻击力+50%，防御力+20%)",
+        "unlock_at": 0
+      },
+      {
+        "name": "回光黯淡",
+        "description": "自身和召唤物攻击生命低于50%的敌人时攻击力提升至140%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "未处理的遗产"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_110_deepcl",
+    "name": "深海色",
+    "rarity": 4,
+    "class": "辅助",
+    "branch": "召唤师",
+    "tags": [
+      "召唤"
+    ],
+    "skills": [
+      {
+        "name": "光影之触",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "视觉陷阱",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "召唤触手",
+        "description": "可以使用两个触手召唤物来协助作战",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "诡异的调色盘"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_385_finlpp",
+    "name": "清流",
+    "rarity": 4,
+    "class": "医疗",
+    "branch": "疗养师",
+    "tags": [
+      "治疗",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "治愈水波",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "涌泉",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "快速愈合",
+        "description": "在治疗目标后使其获得2秒",
+        "unlock_at": 1
+      },
+      {
+        "name": "细水长流",
+        "description": "技能的治疗效果提高10%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“江河之韵”"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_206_gnosis",
+    "name": "灵知",
+    "rarity": 6,
+    "class": "辅助",
+    "branch": "削弱者",
+    "tags": [
+      "削弱"
+    ],
+    "skills": [
+      {
+        "name": "高速思考",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "零度爆发",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "失温症",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "坚冰",
+        "description": "攻击造成1秒；范围内的敌人受到15%的，范围内的敌人效果提升至2倍",
+        "unlock_at": 1
+      },
+      {
+        "name": "殊途同归",
+        "description": "灵知在场且部署后经过10秒，使所有【谢拉格】干员获得",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“誓言”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "一号项目模型"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "灵知特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1040_blaze2",
+    "name": "烛煌",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "本源术师",
+    "tags": [
+      "元素",
+      "输出",
+      "群攻"
+    ],
+    "skills": [
+      {
+        "name": "炙手之援",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "沸血燎原",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "众恶的焚场",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "熔点引爆",
+        "description": "全场有敌人爆发开始时，立即对其造成相当于攻击力250%的元素伤害并回复6%最大生命",
+        "unlock_at": 1
+      },
+      {
+        "name": "绝处重燃",
+        "description": "被击倒时倒地并获得6000点，倒地期间不能攻击，无法被治疗，每秒回复3%生命；生命回满后复活并使附近的敌人5秒",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "热切的期盼"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "沟通小助手"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1048_orchd2",
+    "name": "焰狐龙梓兰",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "重射手",
+    "tags": [
+      "输出",
+      "快速复活"
+    ],
+    "skills": [
+      {
+        "name": "刚射",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "飞翔瞪射",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "龙之箭",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "强击瓶专家",
+        "description": "部署后首次开启技能时，接下来50次攻击的攻击力提升至105%",
+        "unlock_at": 0
+      },
+      {
+        "name": "翔虫机动",
+        "description": "再部署时间秒；部署至上次部署位置周围时，30秒内攻击力并且可以部署在近战位",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "梓兰特制箭靶"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4064_mlynar",
+    "name": "玛恩纳",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "解放者",
+    "tags": [
+      "输出",
+      "爆发"
+    ],
+    "skills": [
+      {
+        "name": "未声张的怒火",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "未宽解的悲哀",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "未照耀的荣光",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "游侠",
+        "description": "攻击敌人时攻击力提升至105%。周围存在3名及以上敌人时110%且受到的伤害减少10%",
+        "unlock_at": 1
+      },
+      {
+        "name": "无动于衷",
+        "description": "在场时，自身，所有卡西米尔干员被攻击时反弹相当于玛恩纳攻击力15%的真实伤害",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“鞘中人”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_479_sleach",
+    "name": "琴柳",
+    "rarity": 6,
+    "class": "先锋",
+    "branch": "执旗手",
+    "tags": [
+      "费用回复",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "支援号令·γ型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "信仰传承",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "光辉旗帜",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "不退之旗",
+        "description": "部署时自身持有军旗；军旗周围8格的干员攻击速度，敌人的攻击速度",
+        "unlock_at": 1
+      },
+      {
+        "name": "精神感召",
+        "description": "部署后，下一名部署的干员费用",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "牧人的歌"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“友谊万岁”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4195_radian",
+    "name": "电弧",
+    "rarity": 6,
+    "class": "辅助",
+    "branch": "召唤师",
+    "tags": [
+      "召唤",
+      "输出",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "律动线",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "环形鳞地",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "手牵手",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "卡带里的灵感",
+        "description": "可以使用3个召唤物（最多同时部署3个），功能随技能选择而改变",
+        "unlock_at": 0
+      },
+      {
+        "name": "加油~",
+        "description": "电弧的召唤物获得相当于12％攻击力、防御力、生命值的效果",
+        "unlock_at": 2
+      },
+      {
+        "name": "后备精通Ⅰ",
+        "description": "解锁不期而遇“同心”事件“请电弧探路”选项",
+        "unlock_at": 1
+      },
+      {
+        "name": "后备精通Ⅱ",
+        "description": "",
+        "unlock_at": 2
+      },
+      {
+        "name": "招募精通Ⅰ",
+        "description": "在【岁的界园志异】中，被招募时希望消耗-2",
+        "unlock_at": 0
+      },
+      {
+        "name": "招募精通Ⅱ",
+        "description": "在【岁的界园志异】中，被招募时，使队伍可留存招募券上限+1",
+        "unlock_at": 0
+      },
+      {
+        "name": "战斗精通Ⅰ",
+        "description": "在【岁的界园志异】中，每到达新的一层，电弧依次获得下列效果：召唤物部署费用-9，召唤物同时部署数量+1",
+        "unlock_at": 0
+      },
+      {
+        "name": "战斗精通Ⅱ",
+        "description": "在【岁的界园志异】中，电弧和其召唤物生命值+20%",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "电弧特勤证章"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "新起点"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4204_mantra",
+    "name": "真言",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "本源术师",
+    "tags": [
+      "元素",
+      "输出",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "共鸣溃缩",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "意识联协",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "无言为真",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "噤声限域",
+        "description": "场上敌人触发效果时立即受到相当于真言攻击力100%的元素伤害，且触发时有8%概率不消耗层数",
+        "unlock_at": 1
+      },
+      {
+        "name": "全局洞悉",
+        "description": "距离真言最近的一个侵入点出场的敌人出现时立刻获得1层",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "中枢神经探测模块"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_332_archet",
+    "name": "空弦",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "速射手",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "箭矢·散逸",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "箭矢·追猎",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "箭矢·暴风",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "兰登战术",
+        "description": "在场时所有【狙击】干员的攻击回复技能每3秒回复1点技力",
+        "unlock_at": 1
+      },
+      {
+        "name": "铁弦",
+        "description": "部署后立即获得一层，护盾破裂后获得7点技力",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“明天的种子”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "旧日重现"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "空弦特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1016_agoat2",
+    "name": "纯烬艾雅法拉",
+    "rarity": 6,
+    "class": "医疗",
+    "branch": "行医",
+    "tags": [
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "无声润物",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "云霭荫佑",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "火山回响",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "氤氲",
+        "description": "普通治疗使目标每秒额外受到一次治疗量和回复量为8%的增益治疗，持续4秒（最多叠加3层）",
+        "unlock_at": 1
+      },
+      {
+        "name": "火山灰疗愈",
+        "description": "攻击范围内的友方单位生命上限，且受到的降低12%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "想要留住的声音"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "想要留下的生命"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1035_wisdel",
+    "name": "维什戴尔",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "投掷手",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "定点清算",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "饱和复仇",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "爆裂黎明",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "好礼",
+        "description": "攻击时为主目标附着残影，残影受到维什戴尔的余震影响时有15%概率爆炸，对周围所有敌人造成120%攻击力的物理伤害并使其0.5秒",
+        "unlock_at": 1
+      },
+      {
+        "name": "死魂灵的余息",
+        "description": "部署后立刻在攻击范围内召唤一个魂灵之影，在魂灵之影周围时获得",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“祖宗发射器”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1028_texas2",
+    "name": "缄默德克萨斯",
+    "rarity": 6,
+    "class": "特种",
+    "branch": "处决者",
+    "tags": [
+      "快速复活",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "细雨无声",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "阵雨连绵",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "剑雨滂沱",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "德克萨斯传统",
+        "description": "被动技能持续时间内攻击力；首次击倒敌人时回复所有生命并重新释放被动技能",
+        "unlock_at": 1
+      },
+      {
+        "name": "德克萨斯剑术",
+        "description": "每次部署后击倒一名敌人之前，攻击速度，受到的所有伤害降低25%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "蓝莓与黑巧"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“新车和新生活”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4056_titi",
+    "name": "缇缇",
+    "rarity": 6,
+    "class": "医疗",
+    "branch": "咒愈师",
+    "tags": [
+      "治疗",
+      "防护",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "缓蚀",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "封护",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "旧日绽放",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "凝固的时光",
+        "description": "自身可以攻击的敌人，且攻击非移动敌人时对其额外造成相当于攻击力10%的法术伤害，在场时中的敌人每秒受到缇缇攻击力18%的法术伤害",
+        "unlock_at": 1
+      },
+      {
+        "name": "勇气的报偿",
+        "description": "场上的【米诺斯】或【萨尔贡】干员生命值高于50%时，获得+20攻速的",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "远方的礼物"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4067_lolxh",
+    "name": "罗小黑",
+    "rarity": 4,
+    "class": "近卫",
+    "branch": "领主",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "掠光尾影",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "碎金为刃",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "见习执行者",
+        "description": "造成致命伤害时使敌人保留1点生命并使其（击杀者技力+1）；罗小黑不攻击单位",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "毛线球"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_484_robrta",
+    "name": "罗比菈塔",
+    "rarity": 4,
+    "class": "辅助",
+    "branch": "工匠",
+    "tags": [
+      "防护",
+      "支援"
+    ],
+    "skills": [
+      {
+        "name": "叙拉古式上妆",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "全自动造型仪",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "造型仪调试",
+        "description": "携带2个造型仪（最多部署3个），使一名近战位上的单位防御力并获得1层（持续15秒，防御加成不叠加）",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "半自动造型工具套组"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4009_irene",
+    "name": "艾丽妮",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "剑豪",
+    "tags": [
+      "爆发",
+      "输出",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "起风",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "裂潮",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "判决",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "审判之火",
+        "description": "对敌人造成物理伤害时有50%概率无视其30%防御力，对空中单位概率提升至100%",
+        "unlock_at": 1
+      },
+      {
+        "name": "净化之剑",
+        "description": "攻击速度，场上有【海怪】敌人时效果翻倍",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "厚重的经卷"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "审判官口粮"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "艾丽妮特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_298_susuro",
+    "name": "苏苏洛",
+    "rarity": 4,
+    "class": "医疗",
+    "branch": "医师",
+    "tags": [
+      "治疗"
+    ],
+    "skills": [
+      {
+        "name": "治疗强化·β型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "深度治疗",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "微创治疗",
+        "description": "编入队伍时，所有初始费用不超过10的干员受到的治疗效果提升10%",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "医不自治"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4117_ray",
+    "name": "莱伊",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "猎手",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "脱身矢",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "广域警觉",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "“得见光芒”",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "巡哨伙伴",
+        "description": "可以在攻击范围内部署沙地兽于15秒内侦察一片区域延伸攻击范围，自身优先攻击该区域内的目标且对其造成的物理伤害提高10%",
+        "unlock_at": 1
+      },
+      {
+        "name": "入神",
+        "description": "攻击相同目标时每次攻击提高自身攻击力8%，最多3层",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "《跳舞的月光》"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "证明什么？"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_150_snakek",
+    "name": "蛇屠箱",
+    "rarity": 4,
+    "class": "重装",
+    "branch": "铁卫",
+    "tags": [
+      "防护"
+    ],
+    "skills": [
+      {
+        "name": "防御力强化·β型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "壳状防御",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "防御专精",
+        "description": "防御力",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "超强棒球套装"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4229_aphris",
+    "name": "谬因",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "轰击术师",
+    "tags": [
+      "群攻",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "连续映射",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "临界瞬爆",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "混沌的本质",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "链路协议",
+        "description": "可以使用一个持续时间15秒的“中继器”，能改变自身的攻击方向，且使该次攻击距离+2",
+        "unlock_at": 0
+      },
+      {
+        "name": "取样优化",
+        "description": "攻击范围内的友方干员攻击时无视敌方10点法术抗性",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "第三相态"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_452_bstalk",
+    "name": "豆苗",
+    "rarity": 4,
+    "class": "先锋",
+    "branch": "战术家",
+    "tags": [
+      "费用回复",
+      "召唤"
+    ],
+    "skills": [
+      {
+        "name": "定点指令",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "“大家一起上”",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "专业饲养员",
+        "description": "可以在战术点召唤磐蟹协助作战，其被击败后会在20秒后自动刷新",
+        "unlock_at": 0
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "钳钳自助餐"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4037_demetr",
+    "name": "贝洛内",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "斗士",
+    "tags": [
+      "输出",
+      "削弱"
+    ],
+    "skills": [
+      {
+        "name": "家主的余裕",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "军师的手段",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "清算",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "家族手段",
+        "description": "攻击使目标在10秒内防御力降低5%（最多叠加5次），并且目标剩余生命值比例越低自身对其造成的伤害越高，在剩余20%以下生命值时伤害提高到最高120%",
+        "unlock_at": 1
+      },
+      {
+        "name": "街头直觉",
+        "description": "获得40%的物理和法术闪避，部署后提高到80%并在20秒内逐渐衰减",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "实用的工具"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1050_chen3",
+    "name": "赤刃明霄陈",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "术战者",
+    "tags": [
+      "爆发",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "赤霄·奔夜",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "赤霄·绝影-驰",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "赤霄·天喟",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "形意洞照",
+        "description": "攻击力+8%，攻击速度+8，变为",
+        "unlock_at": 1
+      },
+      {
+        "name": "寒暑觉知",
+        "description": "未受到伤害时，每7秒随机治疗自身一定（攻击力的30%~160%）生命值，并闪避下次物理与法术攻击",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "记忆残页"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_391_rosmon",
+    "name": "迷迭香",
+    "rarity": 6,
+    "class": "狙击",
+    "branch": "投掷手",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "思维膨大",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "末梢阻断",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "“如你所愿”",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "歼灭战装备",
+        "description": "攻击无视目标90防御力",
+        "unlock_at": 1
+      },
+      {
+        "name": "感知稳定",
+        "description": "部署后随机选择一名在场的【术师】干员，自身和其的攻击力",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“记事”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "迷迭香特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4133_logos",
+    "name": "逻各斯",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "中坚术师",
+    "tags": [
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "殁亡",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "提喻",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "延异视阈",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "语汇演化",
+        "description": "对一个目标发起攻击时，有40%几率额外对攻击范围内一个随机目标造成相当于攻击力40%的法术伤害",
+        "unlock_at": 1
+      },
+      {
+        "name": "剜魂具辞",
+        "description": "攻击使目标在5秒内法术抗性且受到的法术伤害提高150点",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "Δ",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "来自河谷的笔盒"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "《语义范式百科》"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1042_phatm2",
+    "name": "酒神",
+    "rarity": 6,
+    "class": "辅助",
+    "branch": "巫役",
+    "tags": [
+      "元素",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "暗夜回声",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "群体性谵妄",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "空剧场",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "形为心役",
+        "description": "攻击附带相当于攻击力20%的，并对目标周围其他敌人造成一次相当于攻击力10%的",
+        "unlock_at": 0
+      },
+      {
+        "name": "堕梦",
+        "description": "在场时，全场处于爆发期间的敌人攻击速度-12；攻击范围内的敌人普通攻击时受到70点",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "酒神之心"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_2024_chyue",
+    "name": "重岳",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "斗士",
+    "tags": [
+      "爆发"
+    ],
+    "skills": [
+      {
+        "name": "冲盈",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "拂尘",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "我无",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "止戈",
+        "description": "对目标普通攻击时，有18%的概率使重岳2.5秒内对其造成的伤害提升55%",
+        "unlock_at": 1
+      },
+      {
+        "name": "万象为宾",
+        "description": "若重岳释放一次技能击倒不少于一个敌人，则回复3点技力",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“自晦及明”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“朔”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4132_ascln",
+    "name": "阿斯卡纶",
+    "rarity": 6,
+    "class": "特种",
+    "branch": "伏击客",
+    "tags": [
+      "减速",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "追袭",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "恩赐",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "降临",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "死亡拘审",
+        "description": "攻击对敌人施加效果：移动速度，每秒受到6％阿斯卡纶当前攻击力的法术伤害，持续18秒，效果最多叠加三层",
+        "unlock_at": 0
+      },
+      {
+        "name": "噬光残影",
+        "description": "攻击速度+8，自身周围四格有高台时，攻击速度额外+6",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“无形，无情”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“阿斯卡纶的眼睛”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1037_amiya3",
+    "name": "阿米娅(医疗)",
+    "rarity": 5,
+    "class": "医疗",
+    "branch": "咒愈师",
+    "tags": [
+      "治疗",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "哀恸共情",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "慈悲愿景",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "诚挚期许",
+        "description": "在场时所有友方单位最大生命+5%，技能期间所有友方单位每秒恢复1.5%最大生命",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "带有灼痕的裙子"
+      }
+    ],
+    "hope_cost": 2,
+    "is_starter": false
+  },
+  {
+    "id": "char_4010_etlchi",
+    "name": "隐德来希",
+    "rarity": 6,
+    "class": "近卫",
+    "branch": "收割者",
+    "tags": [
+      "输出",
+      "生存"
+    ],
+    "skills": [
+      {
+        "name": "玫影觅迹",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "绯红壁合",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "灵与欲的惜别",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "萃血",
+        "description": "每次攻击敌人时目标50点生命上限（最高900）并使目标每秒受到100点法术伤害持续5秒",
+        "unlock_at": 1
+      },
+      {
+        "name": "重盈",
+        "description": "生命值低于25%时，仅一次立刻回复50%最大生命值，且自身之后受到的物理伤害降低10%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "易枯萎的航船"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "玫瑰色故事集"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_4027_heyak",
+    "name": "霍尔海雅",
+    "rarity": 6,
+    "class": "术师",
+    "branch": "中坚术师",
+    "tags": [
+      "输出",
+      "控场"
+    ],
+    "skills": [
+      {
+        "name": "但为求索",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "群星逶迤",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "博览者的狂语",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "传承终焉",
+        "description": "攻击空中目标时攻击力提升至110%，并使其特殊能力失效1秒",
+        "unlock_at": 1
+      },
+      {
+        "name": "曾有羽翼",
+        "description": "攻击范围内所有生命值高于80%的敌人",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“图书馆”"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "羽蛇的时间博物馆"
+      },
+      {
+        "type": "α",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "霍尔海雅特限证章"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_222_bpipe",
+    "name": "风笛",
+    "rarity": 6,
+    "class": "先锋",
+    "branch": "冲锋手",
+    "tags": [
+      "费用回复",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "迅捷打击·γ型",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "高效冲击",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "闭膛连发",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "精密填弹",
+        "description": "每次攻击有25%的概率攻击力提升至110%，且额外攻击一个目标",
+        "unlock_at": 1
+      },
+      {
+        "name": "军事传统",
+        "description": "编入队伍时所有【先锋】干员的初始技力+6",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "破城矛弹夹"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "“棍棒与口袋”"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_445_wscoot",
+    "name": "骋风",
+    "rarity": 4,
+    "class": "近卫",
+    "branch": "解放者",
+    "tags": [
+      "爆发"
+    ],
+    "skills": [
+      {
+        "name": "以攻为守",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "招无虚发",
+        "index": 2,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "藏锋伺敌",
+        "description": "特性攻击力提升至最高时，每次攻击额外追加一次25%攻击力的攻击",
+        "unlock_at": 1
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "义"
+      }
+    ],
+    "hope_cost": 0,
+    "is_starter": false
+  },
+  {
+    "id": "char_4134_cetsyr",
+    "name": "魔王",
+    "rarity": 6,
+    "class": "辅助",
+    "branch": "吟游者",
+    "tags": [
+      "支援",
+      "生存",
+      "输出"
+    ],
+    "skills": [
+      {
+        "name": "往昔萦绕身旁",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "明日渺远不及",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "编织重构现世",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "过往尘埃",
+        "description": "魔王周围持续围绕3枚“微尘”，“微尘”碰撞友方干员时，消失并使该干员受到魔王特性效果提升至1.2倍，持续6秒，消失的“微尘”在6秒后重生",
+        "unlock_at": 0
+      },
+      {
+        "name": "魔王残响",
+        "description": "，所有友方单位受到【萨卡兹】敌人的伤害降低10%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "故事的结局"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  },
+  {
+    "id": "char_1029_yato2",
+    "name": "麒麟R夜刀",
+    "rarity": 6,
+    "class": "特种",
+    "branch": "处决者",
+    "tags": [
+      "快速复活",
+      "爆发"
+    ],
+    "skills": [
+      {
+        "name": "鬼人化",
+        "index": 1,
+        "mastery_possible": true
+      },
+      {
+        "name": "乱舞",
+        "index": 2,
+        "mastery_possible": true
+      },
+      {
+        "name": "空中回旋乱舞",
+        "index": 3,
+        "mastery_possible": true
+      }
+    ],
+    "talents": [
+      {
+        "name": "双雷剑麒麟",
+        "description": "攻击额外造成攻击力6%的法术伤害",
+        "unlock_at": 0
+      },
+      {
+        "name": "鬼人强化状态",
+        "description": "技能期间及技能结束后的10秒内攻击力+13%",
+        "unlock_at": 2
+      }
+    ],
+    "modules": [
+      {
+        "type": "X",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "训练用木桩"
+      },
+      {
+        "type": "Y",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "description": "罗德岛制式双刀"
+      }
+    ],
+    "hope_cost": 6,
+    "is_starter": false
+  }
+]

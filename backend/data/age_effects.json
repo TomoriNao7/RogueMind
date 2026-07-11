@@ -1,0 +1,29 @@
+[
+  {
+    "id": "age_jy_001",
+    "name": "朦胧·初现",
+    "theme": "界园",
+    "trigger_floor": 3,
+    "effect": "所有敌人攻击力+10%",
+    "awakened_effect": "所有干员攻击力+10%",
+    "awaken_condition": "在得偿所愿节点选择特定选项"
+  },
+  {
+    "id": "age_jy_002",
+    "name": "真切·降临",
+    "theme": "界园",
+    "trigger_floor": 2,
+    "effect": "岁时效果增强：所有敌人攻击力+20%，生命值+15%",
+    "awakened_effect": "所有干员攻击力+15%，生命值+15%",
+    "awaken_condition": "在岁兽残识中完成特定事件"
+  },
+  {
+    "id": "age_jy_003",
+    "name": "入髓·深种",
+    "theme": "界园",
+    "trigger_floor": 2,
+    "effect": "岁时效果进一步强化：所有敌人攻击力+30%，防御力+25%，生命值+25%",
+    "awakened_effect": "所有干员攻击力+25%，防御力+25%，生命值+25%",
+    "awaken_condition": "累积投出一定数量的花钱并完成对应事件"
+  }
+]

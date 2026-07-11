@@ -1,0 +1,42 @@
+[
+  {
+    "id": "reward_001",
+    "name": "更多补给品",
+    "effect": "获得4护盾值",
+    "cost": null
+  },
+  {
+    "id": "reward_002",
+    "name": "储备金支援",
+    "effect": "获得8源石锭",
+    "cost": null
+  },
+  {
+    "id": "reward_003",
+    "name": "购买收藏品",
+    "effect": "获得1件随机收藏品",
+    "cost": {
+      "originium_ingot": 8
+    }
+  },
+  {
+    "id": "reward_004",
+    "name": "回收战利品",
+    "effect": "获得1件随机收藏品",
+    "cost": {
+      "hope": 1
+    }
+  },
+  {
+    "id": "reward_005",
+    "name": "随手拿点啥",
+    "effect": "获得收藏品[热水壶]",
+    "cost": null
+  },
+  {
+    "id": "reward_006",
+    "name": "准备好门票",
+    "effect": "获得2票券",
+    "cost": null
+  }
+]

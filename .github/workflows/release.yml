@@ -1,0 +1,97 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Setup Node 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    # ═══════════════ 后端 ═══════════════
+
+    - name: Install Python dependencies
+      run: pip install -r backend/requirements.txt
+
+    - name: Download BGE model
+      run: |
+        python -c "
+        from huggingface_hub import snapshot_download
+        import os
+        target = 'backend/models/models/BAAI--bge-small-zh-v1.5/snapshots/master'
+        os.makedirs(target, exist_ok=True)
+        snapshot_download('BAAI/bge-small-zh-v1.5', local_dir=target)
+        print('Model downloaded to', target)
+        "
+
+    - name: Build backend with PyInstaller
+      run: |
+        pyinstaller --onedir --name backend --clean --noconsole `
+          --distpath backend/dist `
+          --workpath backend/build `
+          --add-data "backend/app;app" `
+          --add-data "backend/data;data" `
+          --add-data "backend/models;models" `
+          app_backend.py
+        Write-Host "Backend built at backend/dist/backend/"
+
+    # ═══════════════ 前端 ═══════════════
+
+    - name: Install frontend dependencies
+      run: cd frontend && npm ci
+
+    - name: Build frontend
+      run: cd frontend && npm run build
+
+    # ═══════════════ Electron 打包 ═══════════════
+
+    - name: Prepare Electron build
+      run: |
+        # 把前端产物移到 electron 目录内，打包时才能正确包含
+        New-Item -ItemType Directory -Force -Path electron/frontend-dist
+        Copy-Item -Recurse -Force frontend/dist/* electron/frontend-dist/
+        Write-Host "Frontend copied to electron/frontend-dist/"
+
+    - name: Install Electron dependencies
+      run: cd electron && npm install
+
+    - name: Build with electron-builder
+      run: cd electron && npx electron-builder --win portable
+
+    # ═══════════════ 打包发布 ═══════════════
+
+    - name: Create release package
+      run: |
+        $version = "${{ github.ref_name }}" -replace '^v', ''
+        $pkgDir = "RogueMind-v$version"
+        New-Item -ItemType Directory -Path $pkgDir
+        Copy-Item -Force release/*.exe $pkgDir/
+        Copy-Item -Recurse -Force backend/dist/backend $pkgDir/backend
+        Copy-Item -Force start.bat $pkgDir/
+        Compress-Archive -Path $pkgDir -DestinationPath "$pkgDir.zip"
+        Write-Host "Package created: $pkgDir.zip"
+
+    - name: Upload to Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: RogueMind-v*.zip
+        generate_release_notes: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

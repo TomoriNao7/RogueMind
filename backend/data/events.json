@@ -1,0 +1,585 @@
+[
+  {
+    "id": "event_jy_001",
+    "name": "遇戰",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "作战",
+    "description": "遭遇一场随机战斗，不同区域的敌人作战方式会有所不同。战胜敌人可以获取随机奖励。",
+    "options": [
+      {
+        "id": "event_jy_001_a",
+        "text": "进入作战",
+        "cost": null,
+        "outcome": "战斗胜利后获得随机奖励（源石锭/希望/招募券/藏品）"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_002",
+    "name": "強敵",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "紧急作战",
+    "description": "遭遇一场难度更高的战斗，敌人的强度显著提升，战胜后奖励也更丰厚。",
+    "options": [
+      {
+        "id": "event_jy_002_a",
+        "text": "迎战强敌",
+        "cost": null,
+        "outcome": "高难度战斗，胜利后获得更丰厚奖励"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_003",
+    "name": "死鬥",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "险路恶敌",
+    "description": "遭遇一场有领袖级别敌人出没的极难战斗。",
+    "options": [
+      {
+        "id": "event_jy_003_a",
+        "text": "进入死斗",
+        "cost": null,
+        "outcome": "击败领袖敌人，通过本层"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_004",
+    "name": "奇事",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "不期而遇",
+    "description": "遭遇一次随机事件。不同区域的事件内容会有所不同，某些特殊事件只会在达成特定条件时出现。",
+    "options": [
+      {
+        "id": "event_jy_004_a",
+        "text": "探索事件",
+        "cost": null,
+        "outcome": "触发随机事件，根据选择获得不同结果"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_005",
+    "name": "茶歇",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "安全的角落",
+    "description": "可以临时休息片刻的节点。在此获取可选的随机三个增益中的一个。",
+    "options": [
+      {
+        "id": "event_jy_005_a",
+        "text": "选择增益",
+        "cost": null,
+        "outcome": "从三个随机增益中选择一个（希望/生命/源石锭/护盾等）"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_006",
+    "name": "祈願",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "得偿所愿",
+    "description": "获得一个免费的收藏品。可选择投钱挑战：随机要求投出1枚花钱或厉钱，若成功可拿走收藏品，否则仅获8源石锭。",
+    "options": [
+      {
+        "id": "event_jy_006_a",
+        "text": "直接领取",
+        "cost": null,
+        "outcome": "获得一件随机收藏品"
+      },
+      {
+        "id": "event_jy_006_b",
+        "text": "投钱挑战",
+        "cost": null,
+        "outcome": "投出指定币制可拿走收藏品，失败获8源石锭",
+        "coin_check": "花钱或厉钱"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_007",
+    "name": "交易",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "失与得",
+    "description": "可以选择自己持有但不需要的一个收藏品来交换。交换奖励受给出的物品稀有度影响。部分结局相关收藏品不可交换。",
+    "options": [
+      {
+        "id": "event_jy_007_a",
+        "text": "交换藏品",
+        "cost": null,
+        "outcome": "用一件藏品交换随机奖励，稀有度越高奖励越好"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_008",
+    "name": "相道",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "命运所指",
+    "description": "重要的抉择时刻。在此做出的选择将影响后续探索的走向和结局。",
+    "options": [
+      {
+        "id": "event_jy_008_a",
+        "text": "做出选择",
+        "cost": null,
+        "outcome": "根据选择推进剧情或解锁结局路线"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_009",
+    "name": "行商",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "诡意行商",
+    "description": "坎诺特的商店。可消耗源石锭购买道具、收藏品和通宝。第一层诡意行商必定出售烟烛和1个支援道具。点亮《绸缎篇》后可消耗票券刷新商品。",
+    "options": [
+      {
+        "id": "event_jy_009_a",
+        "text": "进入商店",
+        "cost": null,
+        "outcome": "浏览并购买商品（招募券/藏品/通宝/支援道具）"
+      },
+      {
+        "id": "event_jy_009_b",
+        "text": "碰碰商品（累计投资50后出现）",
+        "cost": null,
+        "outcome": "连续点击激怒坎诺特后可进入特殊商店战斗，胜利后免费洗劫商店"
+      },
+      {
+        "id": "event_jy_009_c",
+        "text": "余额提取（累计投资15后解锁）",
+        "cost": null,
+        "outcome": "消耗系统余额提取1源石锭"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_010",
+    "name": "秉燭",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "指点迷津",
+    "description": "选择一名干员成为伺烛客。可使用留存的招募券执行特殊招募（希望-2且被招募干员直接燃烛）；或进行明烛试炼；或借用司岁台库存让1名已招募干员直接燃烛（每局仅一次）。",
+    "options": [
+      {
+        "id": "event_jy_010_a",
+        "text": "特殊招募（出示留存券）",
+        "cost": {
+          "hope": -2
+        },
+        "outcome": "使用留存的招募券招募/进阶干员并直接成为伺烛客"
+      },
+      {
+        "id": "event_jy_010_b",
+        "text": "明烛试炼（需《伟业篇》）",
+        "cost": null,
+        "outcome": "进入特殊战斗，明烛台上干员存活即成为伺烛客"
+      },
+      {
+        "id": "event_jy_010_c",
+        "text": "借用司岁台库存（每局一次）",
+        "cost": null,
+        "outcome": "1名已招募干员直接成为伺烛客"
+      },
+      {
+        "id": "event_jy_010_d",
+        "text": "不选择，回复2目标生命",
+        "cost": null,
+        "outcome": "回复2点目标生命值"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_011",
+    "name": "如歲",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "误入奇境",
+    "description": "深入岁兽的意识，获得基础烛火进入岁兽残识。若有留存招募券，可选择燃烛执行1次特殊招募后进入。可放弃进入将烛火留到下次。",
+    "options": [
+      {
+        "id": "event_jy_011_a",
+        "text": "获得3烛火进入",
+        "cost": null,
+        "outcome": "进入岁兽残识（是非境），获得3烛火"
+      },
+      {
+        "id": "event_jy_011_b",
+        "text": "燃烛后进入（有留存券时）",
+        "cost": null,
+        "outcome": "消耗一张留存券执行特殊招募，烛火-1后进入"
+      },
+      {
+        "id": "event_jy_011_c",
+        "text": "保留烛火离开",
+        "cost": null,
+        "outcome": "烛火叠加至下次进入"
+      },
+      {
+        "id": "event_jy_011_d",
+        "text": "获得1希望离开",
+        "cost": null,
+        "outcome": "获得1希望，不进入岁兽残识"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_012",
+    "name": "論道",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "狭路相逢",
+    "description": "可以选择进入一场特殊的公平战斗。在限定时间内击败更强的对手获得更好奖励。DLC1后可选择以战伺烛，获胜时所有参战干员成为伺烛客。不会扣除生命值。",
+    "requires_knowledge": "《论道篇》",
+    "options": [
+      {
+        "id": "event_jy_012_a",
+        "text": "公平对决",
+        "cost": null,
+        "outcome": "根据限定时间内表现获得分级奖励"
+      },
+      {
+        "id": "event_jy_012_b",
+        "text": "以战伺烛（DLC1后）",
+        "cost": null,
+        "outcome": "战斗获胜后所有正式参战干员成为伺烛客"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_013",
+    "name": "先憂",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "先行一步",
+    "description": "选择一名当前招募的干员暂时离队。该干员将在下一层开始时归来，受到进阶嘉奖，并带回源石锭和票券。也可消耗1目标生命为离队干员燃烛。",
+    "requires_knowledge": "古今学识相关节点",
+    "options": [
+      {
+        "id": "event_jy_013_a",
+        "text": "派遣干员",
+        "cost": null,
+        "outcome": "干员暂时离队，下一层归来时进阶并带回源石锭和票券"
+      },
+      {
+        "id": "event_jy_013_b",
+        "text": "派遣并燃烛",
+        "cost": {
+          "hp": 1
+        },
+        "outcome": "离队干员归来后除进阶奖励外还成为伺烛客"
+      },
+      {
+        "id": "event_jy_013_c",
+        "text": "不派遣，获得2希望",
+        "cost": null,
+        "outcome": "获得2希望"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_020",
+    "name": "祸乱",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "祸乱",
+    "description": "遭遇随机战斗。岁兽残识中的作战常常小而精，任何会扣除目标生命值的敌人进入保护目标则作战立即失败。失败不会扣除生命值，进度继承。仅伺烛客可参战。",
+    "options": [
+      {
+        "id": "event_jy_020_a",
+        "text": "进入作战",
+        "cost": null,
+        "outcome": "战斗胜利固定掉落2张票券和1个收藏品"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_021",
+    "name": "传说",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "传说",
+    "description": "可见到岁兽所见的天下之事。部分事件满足特定条件后出现隐藏选项，部分界园事件会以另外面貌出现于此。",
+    "options": [
+      {
+        "id": "event_jy_021_a",
+        "text": "探索传说",
+        "cost": null,
+        "outcome": "根据事件内容和选择获得不同结果，可能解锁结局路线"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_022",
+    "name": "杂疑",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "杂疑",
+    "description": "阻拦在路上的疑惑，达成条件即可解锁道路并获得收藏品，达成更高难度条件则奖励更好。可暂时离开不消耗烛火。",
+    "options": [
+      {
+        "id": "event_jy_022_a",
+        "text": "达成条件",
+        "cost": null,
+        "outcome": "根据达成条件等级获得不同稀有度收藏品"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_023",
+    "name": "故肆",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "故肆",
+    "description": "与岁兽代理人们欢闹，花费资源获得收藏品或是交换各类不同资源。通过后永久开放可多次探索。",
+    "options": [
+      {
+        "id": "event_jy_023_a",
+        "text": "交换资源",
+        "cost": null,
+        "outcome": "用源石锭/希望/生命等交换收藏品或其他资源"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_024",
+    "name": "拾遗",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "拾遗",
+    "description": "获得各种资源。遇见时即确定资源种类，可在节点详情确认。",
+    "options": [
+      {
+        "id": "event_jy_024_a",
+        "text": "拾取",
+        "cost": null,
+        "outcome": "随机获得希望/源石锭/护盾/招募券等资源"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_025",
+    "name": "易与",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "易与",
+    "description": "绩的商店，消耗目标生命值购买招募券、收藏品、票券和通宝。每个节点的商品状态离开后永久保存。点亮《纺锤篇》后可消耗票券刷新。",
+    "options": [
+      {
+        "id": "event_jy_025_a",
+        "text": "进入商店",
+        "cost": null,
+        "outcome": "消耗生命值购买商品（低稀有度3血/中4血/高5血）"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_026",
+    "name": "常乐",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "常乐",
+    "description": "与岁兽代理人们进行随机娱乐事件：和年打麻将、和令掷币取乐、将希望种入黍的田地。通过后永久开放可多次探索。",
+    "options": [
+      {
+        "id": "event_jy_026_a",
+        "text": "押源石锭打麻将",
+        "cost": {
+          "originium_ingot": -1
+        },
+        "outcome": "三缺一：与年赌麻将，随机输赢源石锭"
+      },
+      {
+        "id": "event_jy_026_b",
+        "text": "押源石锭掷币",
+        "cost": {
+          "originium_ingot": -1
+        },
+        "outcome": "掷地有声：与令掷币取乐"
+      },
+      {
+        "id": "event_jy_026_c",
+        "text": "种下希望",
+        "cost": {
+          "hope": -1
+        },
+        "outcome": "种因得果：将希望种入黍的田地，后续收获"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_027",
+    "name": "筹谋",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "筹谋",
+    "description": "可消耗目标生命值交换通宝。通过后永久开放可多次探索。",
+    "options": [
+      {
+        "id": "event_jy_027_a",
+        "text": "交换通宝",
+        "cost": {
+          "hp": -1
+        },
+        "outcome": "消耗目标生命值换取指定或随机通宝"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_028",
+    "name": "抉择",
+    "theme": "界园",
+    "region": "岁兽残识",
+    "node_type": "抉择",
+    "description": "重要的抉择时刻。在这里将遇到特殊事件，走向另一条结局道路。部分结局的前置事件在此触发。",
+    "options": [
+      {
+        "id": "event_jy_028_a",
+        "text": "做出抉择",
+        "cost": null,
+        "outcome": "根据选择推进结局路线（如获得隐蝶墨/忘生珍珑等关键藏品）"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_030",
+    "name": "杂疑·拾贰",
+    "theme": "界园",
+    "region": "今昔境",
+    "node_type": "杂疑",
+    "description": "今昔境中的杂疑，固定为入卷一名干员或获得随机收藏品的选择。仍可无消耗暂离节点。",
+    "options": [
+      {
+        "id": "event_jy_030_a",
+        "text": "入卷一名干员",
+        "cost": null,
+        "outcome": "选择一名干员入卷（该干员无法参与后续战斗直至回归，用于无中生有结局）"
+      },
+      {
+        "id": "event_jy_030_b",
+        "text": "获得收藏品",
+        "cost": null,
+        "outcome": "获得一件随机收藏品"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_031",
+    "name": "祸乱·柒",
+    "theme": "界园",
+    "region": "今昔境",
+    "node_type": "祸乱",
+    "description": "今昔境中的祸乱，难度远高于是非境。包括但不限于增加新敌人、原有敌人路径和行动时间变化。",
+    "options": [
+      {
+        "id": "event_jy_031_a",
+        "text": "迎战",
+        "cost": null,
+        "outcome": "高难度作战，仅伺烛客可参战"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_032",
+    "name": "故肆·壹",
+    "theme": "界园",
+    "region": "今昔境",
+    "node_type": "故肆",
+    "description": "今昔境中的故肆，变化为仅能交换烛火。每种资源类型可交换一次烛火，源石锭可后续以更低性价比无限次交换。",
+    "options": [
+      {
+        "id": "event_jy_032_a",
+        "text": "用源石锭换烛火",
+        "cost": {
+          "originium_ingot": -1
+        },
+        "outcome": "消耗源石锭换取烛火（可无限次但性价比递减）"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_040",
+    "name": "祠堂口",
+    "theme": "界园",
+    "region": "界园",
+    "node_type": "命运所指",
+    "description": "第5层固定的命运所指。可选择行仪进入依律镇抚结局路线，或奉碑行仪进入长卷留痕结局路线。",
+    "options": [
+      {
+        "id": "event_jy_040_a",
+        "text": "行仪",
+        "cost": null,
+        "outcome": "通过与易对决的破岁阵祀，通过后完成[依律镇抚]结局"
+      },
+      {
+        "id": "event_jy_040_b",
+        "text": "奉碑行仪（持有墨化残碑时）",
+        "cost": null,
+        "outcome": "最终BOSS变为岁，通过后完成[长卷留痕]结局"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_041",
+    "name": "收笔",
+    "theme": "界园",
+    "region": "始末陵",
+    "node_type": "命运所指",
+    "description": "始末陵（第6层）中的命运所指。通过后所有非伺烛客干员将被禁用。请确保已为足够多干员燃烛。",
+    "options": [
+      {
+        "id": "event_jy_041_a",
+        "text": "收笔",
+        "cost": null,
+        "outcome": "所有非伺烛客干员被禁用"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_042",
+    "name": "大狩维天",
+    "theme": "界园",
+    "region": "明灭顶",
+    "node_type": "命运所指",
+    "description": "明灭顶（隐藏层）中的命运所指。通过后所有非入卷干员被禁用，先前入卷的干员全部回归。",
+    "options": [
+      {
+        "id": "event_jy_042_a",
+        "text": "大狩维天",
+        "cost": null,
+        "outcome": "非入卷干员禁用，入卷干员全部回归，迎战末狩"
+      }
+    ]
+  },
+  {
+    "id": "event_jy_043",
+    "name": "谋定",
+    "theme": "界园",
+    "region": "来去处",
+    "node_type": "命运所指",
+    "description": "来去处（隐藏层）中的命运所指。在此规划将要面对的敌人，可选择普通战斗或根据持有收藏品选择不同分支。",
+    "options": [
+      {
+        "id": "event_jy_043_a",
+        "text": "朔的身影逐渐清晰",
+        "cost": null,
+        "outcome": "进入普通战斗[定乾坤]"
+      },
+      {
+        "id": "event_jy_043_b",
+        "text": "望向阴影",
+        "cost": null,
+        "outcome": "根据持有收藏品选择分支（化镇抚/溯承形/改对弈/塑旧历/定本源/役群兽）"
+      }
+    ]
+  }
+]
